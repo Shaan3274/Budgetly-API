@@ -16,6 +16,8 @@ const transactionSchema = new mongoose.Schema({
       'Dining',
       'Subscriptions',
       'Savings',
+      'Freelance',
+      'Salary',
       'Gifts',
       'Other'
     ],

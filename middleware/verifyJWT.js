@@ -14,5 +14,4 @@ const verifyJWT = (req, res, next) => {
     res.status(403).json({ message: "Invalid or expired token" });
   }
 };
-
 module.exports = verifyJWT;
